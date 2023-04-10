@@ -14,7 +14,8 @@ The preprocessing of the dataset was executed using a combination of SNAP, QGIS 
 - Digitising clouds
 
 ### Labels:
-- Soil map from YPEN
+- Soil map from YPEN ([YPEN portal](https://mapsportal.ypen.gr/))
+
 - Subset on defined areas
 - All categories are represented with good analogies
 - Clip label files with digitised clouds
@@ -82,6 +83,22 @@ The following table lists the available areas and the categories that each conta
 
 Here is an example of the data and their origin from different areas in Greece:
 
-![Data Example](/images/EGU_S2.png "Here we can see the data and their origin from different areas in Greece")
+
+<p align="center"><img src="/images/EGU_S2.png" alt="Here we can see the data and their origin from different areas in Greec" width="750" height="750"></p>
+
+Final step is the collocation of the previous into a datacube i.e a multidimensional array with 25 bands (datacube dimensions differentiate for every area) using the Aster image as base (15m spatial resolution). 
+
+- Bands 1-14: Aster
+- Bands 15-24: S2
+- Band 25: Label
+
 
 Sentinel 2 map: Sentinel 2 false colour composite 11/8/4 with OSM background
+
+## Citation
+
+If you use this dataset in your work, please cite our paper:
+
+Vernikos, I., Giannopoulos, G., Christopoulou, A., Begaj, A., Stefouli, M., Bratsolis, E., and Charou, E.: A dataset of Earth Observation Data for Lithological Mapping using Machine Learning, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-17570, https://doi.org/10.5194/egusphere-egu23-17570, 2023.
+
+
