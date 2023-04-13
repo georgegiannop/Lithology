@@ -92,7 +92,7 @@ Final step is the collocation of the previous into a datacube i.e a multidimensi
 - Bands 15-24: S2
 - Band 25: Label
 
-<p align="center"><img src="/images/Data_Cube.png" alt="Data Cube" width="400" height="400"></p>
+<p align="center"><img src="/images/Data_Cube.png" alt="Data Cube" width="218" height="382"></p>
 
 
 Sentinel 2 map: Sentinel 2 false colour composite 11/8/4 with OSM background
