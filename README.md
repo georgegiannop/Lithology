@@ -84,13 +84,15 @@ The following table lists the available areas and the categories that each conta
 Here is an example of the data and their origin from different areas in Greece:
 
 
-<p align="center"><img src="/images/EGU_S2.png" alt="Here we can see the data and their origin from different areas in Greec" width="750" height="750"></p>
+<p align="center"><img src="/images/EGU_S2.png" alt="Here we can see the data and their origin from different areas in Greece" width="750" height="750"></p>
 
 Final step is the collocation of the previous into a datacube i.e a multidimensional array with 25 bands (datacube dimensions differentiate for every area) using the Aster image as base (15m spatial resolution). 
 
 - Bands 1-14: Aster
 - Bands 15-24: S2
 - Band 25: Label
+
+<p align="center"><img src="/images/Data_Cube.png" alt="Data Cube" width="400" height="400"></p>
 
 
 Sentinel 2 map: Sentinel 2 false colour composite 11/8/4 with OSM background
