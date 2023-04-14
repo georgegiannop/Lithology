@@ -97,6 +97,13 @@ Final step is the collocation of the previous into a datacube i.e a multidimensi
 
 Sentinel 2 map: Sentinel 2 false colour composite 11/8/4 with OSM background
 
+## Code
+We provide two pythons code for making patches and croping in the images.
+
+## Dataset
+The dataset can be found in the following link:
+ https://doi.org/10.5281/zenodo.7806930
+
 ## Citation
 
 If you use this dataset in your work, please cite our paper:
